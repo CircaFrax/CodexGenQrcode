@@ -10,7 +10,7 @@
 
 
 
-> **Les plus simples outils devraient rester offline.**
+# Les plus simples outils devraient rester offline.**
 
 > Pas besoin de cloud pour partager une adresse. Juste un carré qui marche, même sans réseau.
 
@@ -48,16 +48,15 @@ Philosophie : 1 Codex = 1 télécommande, 14 cerveaux. Phase 1 = tu tapes, Phase
 3. Personnaliser à droite : taille, correction, couleurs, logo
 4. Exporter PNG / SVG. Vérifier en scannant avec ton téléphone.
 
-## Organisation v0.4.1
+## Organisation
 
 ```
 CodexGenQrcode/
 ├───CodexGenQrcode.exe
 ├───Licence.md
 └───Guide.md
+```
 
-### 📄 Licence
-Code MIT pour l'interface. ExifTool conserve sa propre licence.
+## Lore v0.4.1
 
----
-**Fait partie de la suite Codex** — des logiciels qui s'utilisent sans installation, comme en 1998, mais en mieux.
+Pourquoi dépendre d'un site qui a besoin de réseau pour te donner un carré qui est censé marcher sans réseau ?
