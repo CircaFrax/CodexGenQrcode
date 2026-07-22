@@ -22,7 +22,7 @@ Pendant que les autres chargent 15 trackers, lui il génère. En local. En Pytho
 
 Sur internet tu as tout, mais il faut du réseau. Et tu laisses tes données.
 
-v0.1 ne faisait que `qrcode.make(url)` dans une fenêtre tkinter. v0.4 a compris qu'il y a 4 familles de forges :
+Les 4 familles de forges :
 
 **FORGE ESSENTIELLE** - Le lien brut. Le plus utilisé offline. `https://` ou un simple texte. Tu colles, ça QR.
 
@@ -67,40 +67,9 @@ Philosophie : 1 Codex = 1 télécommande stylée customtkinter, 14 modules = 14 
 
 ```
 CodexGenQrcode/
-│   README.md
-│   Readme.txt
-│   Requiement.md
-├───_Assets/
-│   │   CodexGenQrcode_box.png
-│   ├───bg/
-│   ├───icons/
-│   │       Codex.ico
-│   │       CircaFrax_logo_transparent.ico
-│   ├───img/
-│   │       CircaFrax_simple_logo_transparent.png
-│   └───sounds/
-├───_Code/
-│   │   CodexGenQrcode.py              <- Codex central, UI seule (v0.4.1 FIX)
-│   ├───modules/
-│   │   │   __init__.py
-│   │   │   url.py
-│   │   │   text.py
-│   │   │   wifi.py
-│   │   │   email.py
-│   │   │   phone.py
-│   │   │   sms.py
-│   │   │   whatsapp.py
-│   │   │   vcard.py
-│   │   │   mecard.py
-│   │   │   geo.py
-│   │   │   event.py
-│   │   │   bitcoin.py
-│   │   │   datamatrix.py              <- nécessite pylibdmtx
-│   │   │   aztec.py                   <- nécessite aztec-code-generator
-├───_Doc/
-│       Readme.md
-├───_Versions/ (v0.1 -> v0.4.1)
-└───_Versions_Build/ (build portable à venir)
+│   CodexGenQrcode.exe
+├───Licence
+└───Guide
 ```
 
 ## Versions
