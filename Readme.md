@@ -34,7 +34,7 @@ Les 4 familles de forges :
 
 Philosophie : 1 Codex = 1 télécommande, 14 cerveaux. Phase 1 = tu tapes, Phase 2 = tu prévisualises en live, Phase 3 = tu exportes en PNG/JPG/SVG avec tes couleurs et ton logo.
 
-## Utilisation
+### 📖 Utilisation
 
 1. Lancer `_Code/CodexGenQrcode.exe
 2. Dans la liste à gauche, cliquer :
@@ -48,7 +48,7 @@ Philosophie : 1 Codex = 1 télécommande, 14 cerveaux. Phase 1 = tu tapes, Phase
 3. Personnaliser à droite : taille, correction, couleurs, logo
 4. Exporter PNG / SVG. Vérifier en scannant avec ton téléphone.
 
-## Organisation
+### 📁 Structure
 
 ```
 CodexGenQrcode/
@@ -57,6 +57,12 @@ CodexGenQrcode/
 └───Guide.md
 ```
 
-## Lore v0.4.1
+### 🔒 Confidentialité
+- **Zéro réseau** : tout se passe sur votre PC
+- `exiftool.exe` by Phil Harvey (Artistic License) - embarqué localement
 
+### 📄 Licence
+Code MIT pour l'interface. ExifTool conserve sa propre licence.
+
+---
 Pourquoi dépendre d'un site qui a besoin de réseau pour te donner un carré qui est censé marcher sans réseau ?
