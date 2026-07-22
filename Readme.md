@@ -20,7 +20,7 @@ Pendant que les autres chargent 15 trackers, lui il génère. En local. En Pytho
 
 ## Idée - v0.4 : Le Codex Central et ses 14 Forges
 
-Sur genqrcode.com tu as tout, mais il faut du réseau. Et tu laisses tes données.
+Sur internet tu as tout, mais il faut du réseau. Et tu laisses tes données.
 
 v0.1 ne faisait que `qrcode.make(url)` dans une fenêtre tkinter. v0.4 a compris qu'il y a 4 familles de forges :
 
