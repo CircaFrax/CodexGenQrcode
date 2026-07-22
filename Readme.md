@@ -16,7 +16,7 @@
 
 CodexGenQrcode c'est ton utilitaire qui te manquait quand t'es au fond d'un atelier ou dans une zone sans réseau, sans 4G, et que tu dois filer un WiFi, une position GPS ou une carte de visite. C'est l'anti-générateur-en-ligne.
 
-Pendant que les autres chargent 15 trackers, lui il génère. En local. En Python. Sans pub.
+Pendant que les autres chargent 15 trackers, lui il génère. En local. Sans pub.
 
 ## Idée : Le Codex Central et ses 14 Forges
 
