@@ -18,7 +18,7 @@ CodexGenQrcode c'est ton utilitaire qui te manquait quand t'es au fond d'un atel
 
 Pendant que les autres chargent 15 trackers, lui il génère. En local. En Python. Sans pub.
 
-## Idée - v0.4 : Le Codex Central et ses 14 Forges
+## Idée : Le Codex Central et ses 14 Forges
 
 Sur internet tu as tout, mais il faut du réseau. Et tu laisses tes données.
 
@@ -32,27 +32,12 @@ Les 4 familles de forges :
 
 **FORGE INDUSTRIELLE** - Le petit format qui pique. `DataMatrix` 2x plus compact que QR pour marquer un PCB ou un flacon, `Aztec` des billets SNCF qui n'a même pas besoin de marge blanche, et `bitcoin:` pour payer sans faute de frappe.
 
-Philosophie : 1 Codex = 1 télécommande stylée customtkinter, 14 modules = 14 cerveaux. Phase 1 = tu tapes, Phase 2 = tu prévisualises en live, Phase 3 = tu exportes en PNG/JPG/SVG avec tes couleurs et ton logo.
-
-## Fonctionnalités v0.4.1
-
-- **Architecture modulaire** : Codex central (`_Code/CodexGenQrcode.py`) = UI seule, 14 modules dans `_Code/modules/` = forges
-  - `url.py` / `text.py` : Essentiels
-  - `wifi.py` / `geo.py` / `event.py` : Terrain
-  - `email.py` / `phone.py` / `sms.py` / `whatsapp.py` / `vcard.py` / `mecard.py` : Contact
-  - `bitcoin.py` / `datamatrix.py` / `aztec.py` : Industriel & Crypto
-- **Preview live deluxe** : correction L/M/Q/H, slider taille, couleur QR / fond avec color picker, overlay logo depuis `_Assets/img/`
-- **Exports** : PNG, JPG, SVG vectoriel (impression)
-- **100% Offline** : `qrcode[pil]` + `Pillow` suffisent. Pas de requête réseau. Jamais.
-- **Portable** : pas d'installateur, tu lances `python _Code/CodexGenQrcode.py`, même depuis une clé USB
-- **UI propre** : sidebar 260px avec recherche live, bouton actif en surbrillance, grand cadre à droite, scroll molette dans les deux panneaux, fenêtre redimensionnable, header avec `CircaFrax_logo_transparent.ico` + `CircaFrax_simple_logo_transparent.png`
-- **Support étendu** : si `aztec-code-generator` et `pylibdmtx` + `libdmtx-64.dll` présents dans `_Assets/`, DataMatrix et Aztec utilisent leur vrai moteur, sinon fallback QR avec message clair
+Philosophie : 1 Codex = 1 télécommande, 14 cerveaux. Phase 1 = tu tapes, Phase 2 = tu prévisualises en live, Phase 3 = tu exportes en PNG/JPG/SVG avec tes couleurs et ton logo.
 
 ## Utilisation
 
-1. Installer les deps : `pip install -r Requiement.md`
-2. Lancer `_Code/CodexGenQrcode.py`
-3. Dans la liste à gauche, cliquer :
+1. Lancer `_Code/CodexGenQrcode.exe
+2. Dans la liste à gauche, cliquer :
    - URL = site, YouTube, Drive
    - WiFi = SSID + WPA
    - Géo = lat/lon de l'atelier
@@ -60,43 +45,17 @@ Philosophie : 1 Codex = 1 télécommande stylée customtkinter, 14 modules = 14 
    - SMS / WhatsApp / Tel / Email = message pré-rempli
    - vCard / MeCard = carte de visite
    - DataMatrix / Aztec / Bitcoin = indus
-4. Personnaliser à droite : taille, correction, couleurs, logo
-5. Exporter PNG / SVG. Vérifier en scannant avec ton téléphone.
+3. Personnaliser à droite : taille, correction, couleurs, logo
+4. Exporter PNG / SVG. Vérifier en scannant avec ton téléphone.
 
 ## Organisation v0.4.1
 
 ```
 CodexGenQrcode/
-│   CodexGenQrcode.exe
-├───Licence
-└───Guide
-```
-
-## Versions
-
-- **v0.1** - Base : `tkinter + qrcode.make(url)` + save dialog. Fonctionnel mais moche.
-- **v0.2** - Architecture modulaire : sidebar scrollable + grand cadre droite + auto-discovery des modules + preview live. 5 modules.
-- **v0.3** - Header logo + support CodexGenQrcode_Assets + 7 nouveaux modules (sms, whatsapp, event, geo, bitcoin) + début DataMatrix/Aztec.
-- **v0.4** - Deluxe : search live, bouton actif, preview avec EC / taille / couleurs / logo / export SVG, support make_image() custom pour Aztec/DataMatrix. 14 forges.
-- **v0.4.1 FIX** - Actuelle, validée : fix destruction CTkScrollableFrame qui empêchait l'ouverture, fix lambda closure des boutons, détection assets robuste (_Assets et CodexGenQrcode_Assets), try/except + messagebox d'erreur, testée avec tous les QR sur téléphone.
+├───CodexGenQrcode.exe
+├───Licence.md
+└───Guide.md
 
 ## Lore v0.4.1
 
 > Pourquoi dépendre d'un site qui a besoin de réseau pour te donner un carré qui est censé marcher sans réseau ?
-
-v0.1 était le petit script qui dépanne.
-
-v0.4 est devenu l'atelier complet :
-
-- Essentielle trace le chemin.
-- Contact donne la main.
-- Terrain ancre dans le réel.
-- Industrielle grave dans le métal.
-
-C'est le pendant de HiddenWind : l'un efface les traces, l'autre les crée en carré. Au choix.
-
-Les QR clean, bien contrastés, avec ton logo au centre ? On les a faits. Et ils scannent du premier coup.
-
-## Licence
-
-Libre. Comme un QR qui marche sans cloud. Utilise-le quand t'as pas de réseau, et même quand t'en as.
