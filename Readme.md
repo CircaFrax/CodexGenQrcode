@@ -62,7 +62,7 @@ CodexGenQrcode/
 - `exiftool.exe` by Phil Harvey (Artistic License) - embarqué localement
 
 ### 📄 Licence
-Code MIT pour l'interface. ExifTool conserve sa propre licence.
+Code MIT pour l'interface.
 
 ---
-Pourquoi dépendre d'un site qui a besoin de réseau pour te donner un carré qui est censé marcher sans réseau ?
+**Fait partie de la suite Codex** — des logiciels qui s'utilisent sans installation, comme en 1998, mais en mieux.
