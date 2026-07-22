@@ -56,4 +56,8 @@ CodexGenQrcode/
 ├───Licence.md
 └───Guide.md
 
-> Pourquoi dépendre d'un site qui a besoin de réseau pour te donner un carré qui est censé marcher sans réseau ?
+### 📄 Licence
+Code MIT pour l'interface. ExifTool conserve sa propre licence.
+
+---
+**Fait partie de la suite Codex** — des logiciels qui s'utilisent sans installation, comme en 1998, mais en mieux.
