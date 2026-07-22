@@ -56,6 +56,4 @@ CodexGenQrcode/
 ├───Licence.md
 └───Guide.md
 
-## Lore v0.4.1
-
 > Pourquoi dépendre d'un site qui a besoin de réseau pour te donner un carré qui est censé marcher sans réseau ?
