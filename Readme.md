@@ -8,7 +8,12 @@
   <img src="https://raw.githubusercontent.com/CircaFrax/CodexGenQrcode/main/assets/CodexGenQrcode_box.png" width="420">
 </p>
 
+<p align="center">
 
+### ⬇️ [Télécharger CodexGenQrcode v0.4.3 (Windows)](https://github.com/CircaFrax/CodexGenQrcode/releases/download/v0.4.3/CodexGenQrcode_v0.4.3.zip)
+`SHA256: 30e0240d75d000b6be5515da42594df88d0fdcfa186364f96249801d7601c91d`
+
+</p>
 
 # Les plus simples outils devraient rester offline.**
 
