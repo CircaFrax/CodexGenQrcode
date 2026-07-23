@@ -71,7 +71,7 @@ CodexGenQrcode/
 - `exiftool.exe` by Phil Harvey (Artistic License) - embarqué localement
 
 ### 📄 Licence
-Code MIT pour l'interface.
+CircaFrax Proprietary Freeware
 
 ---
 **Fait partie de la suite Codex** — des logiciels qui s'utilisent sans installation, comme en 1998, mais en mieux.
