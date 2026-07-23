@@ -19,7 +19,7 @@ CodexGenQrcode c'est ton utilitaire qui te manquait quand t'es au fond d'un atel
 Pendant que les autres chargent 15 trackers, lui il génère. En local. Sans pub.
 
 ## Aperçu
-<img src="https://raw.githubusercontent.com/CircaFrax/CodexGenQrcode/main/assets/Screenshot_v0.4.3" width="650">
+<img src="https://raw.githubusercontent.com/CircaFrax/CodexGenQrcode/main/assets/screenshot_v0.4.3.png" width="650">
 *Menu à gauche, prévisualisation live à droite – 100% offline*
 
 ## Idée : Le Codex Central et ses 14 Forges
