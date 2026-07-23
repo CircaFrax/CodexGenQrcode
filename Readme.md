@@ -62,8 +62,9 @@ Philosophie : 1 Codex = 1 télécommande, 14 cerveaux. Phase 1 = tu tapes, Phase
 ```
 CodexGenQrcode/
 ├───CodexGenQrcode.exe
-├───Licence.md
-└───Guide.md
+├───LICENCE.md
+├───LICENSE.md
+└───THIRD_PARTY_LICENSES.md
 ```
 
 ### 🔒 Confidentialité
