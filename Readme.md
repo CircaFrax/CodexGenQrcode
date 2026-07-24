@@ -69,7 +69,13 @@ CodexGenQrcode/
 
 ### 🔒 Confidentialité
 - **Zéro réseau** : tout se passe sur votre PC
-- `exiftool.exe` by Phil Harvey (Artistic License) - embarqué localement
+
+### 🗺️ Roadmap
+- [x] v0.4.3 - Fonctionnalité 70% OK
+- [ ] v0.4.4 - Fonctionnalité 100% (appels, sms, géo, whatsapp)
+- [ ] v0.4.5 - Design des QRCodes
+- [ ] v0.4.6 - Ajout de logo dans les QRCodes
+- [ ] v0.5.0 - Finale.
 
 ### 📄 Licence
 CircaFrax Proprietary Freeware
